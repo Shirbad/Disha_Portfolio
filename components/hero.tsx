@@ -65,7 +65,7 @@ export function Hero() {
           {/* CTAs */}
           <div className="flex flex-wrap items-center gap-4">
             <Button asChild className="group">
-              <a href="/resume.pdf" download aria-label="Download resume (PDF)">
+              <a href="/Disha_Shirbad_SoftwareDeveloper_Resume.pdf" download aria-label="Download resume (PDF)">
                 Download Resume
                 <Download className="ml-2 h-4 w-4 transition-transform group-hover:translate-y-0.5" />
               </a>

@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge"
 const skillCategories = [
   {
     title: "Programming Languages",
-    skills: ["C", "Core Java", "JavaScript"],
+    skills: ["C", "Java", "JavaScript"],
     icon: "💻",
   },
   {
@@ -17,7 +17,7 @@ const skillCategories = [
   },
   {
     title: "Backend & APIs",
-    skills: ["Spring Boot", "Spring MVC", "RESTful APIs", "Servlets"],
+    skills: ["Spring Boot", "REST APIs", "Servlets"],
     icon: "⚙️",
   },
   {
@@ -37,7 +37,7 @@ const skillCategories = [
   },
   {
     title: "Soft Skills",
-    skills: ["Time Management", "Adaptability", "Problem Solving", "Team Collaboration"],
+    skills: ["Problem Solving", "Time Management", "Adaptability", "Team Collaboration"],
     icon: "🤝",
   },
 ]
