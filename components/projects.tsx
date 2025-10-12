@@ -22,6 +22,7 @@ const projects = [
       "Blood availability checking portal",
     ],
     category: "Full-Stack Application",
+    github: "https://github.com/Shirbad/VirtualBloodBankProject"
   },
   {
     title: "Job Recruitment Portal",
@@ -39,6 +40,7 @@ const projects = [
       "Employer job management portal",
     ],
     category: "Web Application",
+    github:"https://github.com/Shirbad/JobPortal",
   },
 ]
 
