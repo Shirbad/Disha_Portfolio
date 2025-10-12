@@ -63,14 +63,7 @@ export function About() {
               </p>
             </div>
 
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Beyond Code</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                When I'm not coding, I enjoy participating in technical competitions, coordinating tech events, and
-                staying updated with the latest trends in software development. I believe in continuous learning and
-                sharing knowledge with the developer community.
-              </p>
-            </div>
+            
           </div>
         </div>
       </div>
