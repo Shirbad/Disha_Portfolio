@@ -10,14 +10,14 @@ import { ThemeProvider } from "@/components/theme-provider" // add provider
 export const metadata: Metadata = {
   title: "Disha Shirbad | Java Developer | Spring Boot, REST APIs, React.js",
   description:
-    "Java Developer skilled in Spring Boot, Hibernate, REST APIs, MySQL and React.js. Built a secure banking backend and live websites. Open to Software Engineer roles.",
+    "Java Developer skilled in Java, Spring Boot, REST APIs, PostgreSQL, Kafka and React.js. Built a banking microservices backend and live websites. Open to Software Engineer roles.",
   generator: "v0.app",
   keywords: ["Java Developer", "Spring Boot", "Hibernate", "REST APIs", "MySQL", "React.js", "Software Engineer", "Disha Shirbad"],
   authors: [{ name: "Disha Shirbad" }],
   openGraph: {
     title: "Disha Shirbad | Java Developer | Spring Boot, REST APIs, React.js",
     description:
-      "Java Developer skilled in Spring Boot, Hibernate, REST APIs, MySQL and React.js. Built a secure banking backend and live websites. Open to Software Engineer roles.",
+      "Java Developer skilled in Java, Spring Boot, REST APIs, PostgreSQL, Kafka and React.js. Built a banking microservices backend and live websites. Open to Software Engineer roles.",
     type: "website",
   },
 }

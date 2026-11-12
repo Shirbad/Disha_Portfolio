@@ -18,19 +18,19 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Secure Banking Transaction System",
+    title: "NexBank Banking Microservices",
     category: "Backend Application",
     longDescription:
-      "A Spring Boot banking backend with 14 REST APIs covering authentication, accounts, deposits, withdrawals, transfers, transaction history and payments.",
+      "A Java 21 and Spring Boot banking backend built as five services for authentication, accounts, transfers, fraud review, and notifications. PostgreSQL stores account and ledger data, Kafka carries service events, and Redis supports caching and rate limits.",
     features: [
-      "JWT authentication with Spring Security and BCrypt password hashing",
-      "Rule-based fraud detection for large and rapid repeated transfers",
-      "Automated 2% cashback with a Spring Scheduler job",
-      "Controller-Service-Repository layers with centralized exception handling",
-      "Top-spenders analytics API",
+      "JWT authentication with rotating refresh tokens and role-based access",
+      "Deposits, withdrawals, account ownership checks, and transaction history",
+      "Database-backed transfers with ordered locks and idempotency keys",
+      "Kafka transactional outbox with fraud and notification consumers",
+      "JUnit and Mockito tests; about 91% measured service-class line coverage, with a 70% JaCoCo minimum",
     ],
-    technologies: ["Java", "Spring Boot", "Spring Security", "JWT", "MySQL", "Hibernate"],
-    code: "https://github.com/Shirbad/Secure_banking_System",
+    technologies: ["Java 21", "Spring Boot", "PostgreSQL", "Kafka", "Redis", "Docker", "JUnit"],
+    code: "https://github.com/Shirbad/NexBank",
   },
   {
     title: "Feronix Paints Website",

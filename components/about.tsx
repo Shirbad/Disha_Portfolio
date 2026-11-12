@@ -53,8 +53,9 @@ export function About() {
               and feronixpaints.com, with Next.js, React and Node.js, including their SEO.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I also built a Secure Banking Transaction System with 14 REST APIs, Spring Security, JWT and rule-based
-              fraud detection. I'm a B.Tech graduate in Artificial Intelligence & Data Science, and I'm looking for a
+              I also built NexBank, a five-service banking backend using Java 21, Spring Boot, PostgreSQL, Kafka and
+              Redis. It includes JWT authentication, account transfers, fraud review and event-driven notifications.
+              I'm a B.Tech graduate in Artificial Intelligence & Data Science, and I'm looking for a
               Software Engineer or Java Developer role where I can keep learning and ship quality code.
             </p>
           </div>
@@ -86,7 +87,7 @@ export function About() {
                   <h3 className="text-lg font-semibold">Current Focus</h3>
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  Right now I'm adding tests, Docker and CI to my banking project.
+                  I recently completed NexBank's Docker setup, automated tests and GitHub Actions CI.
                 </p>
               </CardContent>
             </Card>
